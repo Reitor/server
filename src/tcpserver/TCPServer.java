@@ -5,7 +5,7 @@ class TCPServer {
  public static void main(String argv[]) throws Exception {
   String clientSentence;
   String capitalizedSentence;
-  ServerSocket welcomeSocket = new ServerSocket(8080);
+  ServerSocket welcomeSocket = new ServerSocket(8000);
 
   while (true) {
    Socket connectionSocket = welcomeSocket.accept();
